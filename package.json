@@ -5,16 +5,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "deploy": "gh-pages -d public",
+    "dev": "nodemon ./public/server.js",
+    "start": "node ./public/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express.js": "^1.0.0",
-    "nodemon": "^2.0.13"
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.13",
+    "word-list": "^3.1.0"
   }
 }
