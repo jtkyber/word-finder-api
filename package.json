@@ -1,0 +1,20 @@
+{
+  "homepage": "https://jtkyber.github.io/word-finder-api",
+  "name": "word-finder-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
